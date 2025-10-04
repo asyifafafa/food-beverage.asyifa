@@ -1,0 +1,67 @@
+<html>
+<head>
+<title>Link & Tabel</title>
+<link rel="stylesheet" href="layout.css">
+</head>
+ <body style="background-color: #e8f5e9; font-family: Arial, sans-serif; padding: 30px;">
+    <center><h1 style="color:#2e7d32" >.:: Welcome To Our Order ::.</h1>
+<nav>
+<ul>
+     <li><a href="#"target="blank">Home</a></li>
+     <li><a href="profil.html">Profil</a></li>
+   <li>
+      <a href="#">Produk</a>
+    <ul>
+      <li><a href="susu.html">Susu</a></li>
+      <li><a href="teh.html">Teh Kemasan</a></li>
+      <li><a href="sosis.html">Sosis</a></li>
+      <li><a href="keripik.html">Keripik</a></li>
+      <li><a href="mie.html">Mie Instan</a></li>
+     <li><a href="wafer.html">Wafer</a></li>
+    </ul>
+   </li>
+    <li><a href="mitra.html">Mitra</a></li>
+    <li><a href="service.html">Service</a></li> 
+    <li><a href="kontak.html">Kontak Kami</a></li>
+    <li><a href="order.html"> Order</a></li>
+</ul>
+</nav>
+<hr>
+ <h2 style="color:#4e342e">Formulir Pemesanan</h2>
+
+  <form action="submit-order.php" method="POST" >
+    <label style="color:#4e342e" >Nama:</label><br>
+    <input type="text" name="name" required><br><br>
+
+    <label>Email:</label><br>
+    <input type="email" name="email" required><br><br>
+
+    <label>Produk:</label><br>
+    <select name="product" required>
+      <option value="">-- Pilih Produk --</option>
+      <option value="susu">Susu</option>
+      <option value="teh">Teh Kemasan</option>
+      <option value="sosis">Sosis</option>
+     <option value="keripik">Keripik</option>
+     <option value="mie">Mie Instan</option>
+     <option value="wafer">Wafer</option>
+    </select><br><br>
+
+    <label>Jumlah:</label><br>
+    <input type="number" name="quantity" min="1" value="1" required><br><br>
+
+    <label>Merek:</label><br>
+    <textarea name="notes" rows="2" cols="40"></textarea><br><br>
+
+    <button type="submit">
+       <a href="final.html" style="color:#1b5e20">Kirim Pesanan</a></button>
+  </form>
+
+<p>
+Selamat datang di websiteku. Klik menu di atas,
+untuk membuka halaman yang berbeda Semua link di atas adalah internal link
+</p>
+<hr>
+<div>Copyright &copy; 2025 by AAS-IF1</div>
+</body>
+</html>
